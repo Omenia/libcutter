@@ -1,0 +1,9 @@
+{
+    "library_name": "newlib",
+    "package_name": "robotframework-{{ cookiecutter.library_name.lower().replace(' ',  '_').replace('-', '_') }}",
+    "package_keywords": "robotframework test library",
+    "license": ["Apache Software License 2.0", "GNU General Public License v3", "Not open source"],
+    "author_name": "SALabs_",
+    "author_email": "is.required@but.not.validated",
+    "url": "e.g. https://github.com/organization/repository.git"
+}
