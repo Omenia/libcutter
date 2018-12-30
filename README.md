@@ -24,9 +24,11 @@ Features:
 
 As of December 2018, the consencus in Robot Framework community seems to be
 that new tools and libraries can forget 2 series and target for Python >= 3.6.
+Though, do not drop support for Python 2 yet, if it already has been done,
+as that definitely does not speed up the rest moving to 3, at least.
 
-While this template was started on Python 2, and still seems to work on it,
-it cannot be quaranteed if íncluded tools want to support
+While this template was started on Python 2 (and still seems to work on it),
+it is not quaranteed if the included tools will support
 [Python 2 how long](https://pythonclock.org/).
 
 ## Prerequisites
