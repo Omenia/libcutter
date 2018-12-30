@@ -10,7 +10,7 @@ Goals, much inspired by [hatch](https://github.com/ofek/hatch):
 
 1. Enhance Python and Robot Framework dev practices, but without reinventing the wheel
 2. Tackle worsening Python dependency challenges, but with already established tools
-3. Run `make` for (a)tests, build and tryout, but can also run them one by one
+3. Run `make` for (a)tests, build and tryout, but can run them one by one, or publish to PyPIs
 
 Features:
 
