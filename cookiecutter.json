@@ -1,9 +1,9 @@
 {
-    "library_name": "newlib",
+    "library_name": "examplelib",
     "package_name": "robotframework-{{ cookiecutter.library_name.lower().replace(' ',  '_').replace('-', '_') }}",
-    "package_keywords": "robotframework test library",
+    "package_keywords": "robotframework test library tutorial",
     "license": ["Apache Software License 2.0", "GNU General Public License v3", "Not open source"],
     "author_name": "SALabs_",
-    "author_email": "is.required@but.not.validated",
-    "url": "e.g. https://github.com/organization/repository.git"
+    "author_email": "required@not.validated",
+    "url": "(powered by https://github.com/Omenia/libcutter)"
 }
