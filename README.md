@@ -1,31 +1,33 @@
 # libcutter
 
-Bootstrap a new (or enhances the existing) Robot Framework test library
-using a [Cookiecutter](https://cookiecutter.readthedocs.io/en/latest/) template,
-to automate all the repetitive development tasks, but also to provide carefully
-selected hinting tools to publish Python packages that surely work everywhere.
+Bootstrap a new (or enhance existing) Robot Framework test library
+by a [Cookiecutter](https://cookiecutter.readthedocs.io/en/latest/) template
+that automates the repetitive development tasks and in addition provides
+carefully selected Python excellence to publish more excellence,
+that surely works anywhere.
 
 Goals:
 
-1. Embrace Python and Robot Framework good practices, but without reinventing wheel
+1. Enhance Python and Robot Framework dev practices, but without reinventing wheel
 2. Tackle ever-worsening Python dependency issues, but with widely known tools
-3. Run `make` for tests, build and publish, but can run also only stage as well
+3. Run `make` for tests, build and publish, but can also run one of them as well
 
 Features:
 
-- Handles `virtualenv`s automatically, you avoiding complicated internals
-- Neither should interfere with some emerging options - please report if issues
-- Includes tools for linting, hinting, formatting and bettering your Python code
+- Handles `virtualenv`s automatically, no need to learn complicated internals
+- Neither it should interfere with emerging alternatives - please report issues
+- Everything needed for linting, hinting, formatting and bettering Python code
 - In addition to Robot Framework, includes an enhanced pytest for unit testing
-- Extensive testing is still work in progress - currently with <10 code bases
+- Caution: Extensive testing work in progress, also READMEs prone to improve :)
 
-## Python 3 only is enough now
+## Python 3 should be enough now
 
-As of December 2018, the consencus in Robot Framework community is that
-new tools and libraries can target to work on Python >= 3.6 only.
+As of December 2018, the consencus in Robot Framework community seems to be
+that new tools and libraries can forget 2 series and target for Python >= 3.6.
 
-While this template was started on Python 2, it cannot be quaranteed the tools
-included continue to support [Python 2 for a long](https://pythonclock.org/).
+While this template was started on Python 2, and still seems to work on it,
+it cannot be quaranteed if íncluded tools want to support
+[Python 2 how long](https://pythonclock.org/).
 
 ## Prerequisites
 
@@ -33,10 +35,13 @@ Install cookiecutter from [PyPI](https://pypi.org/project/cookiecutter/):
 
     pip install --upgrade cookiecutter
 
-## Bootstrap a library
+## Usage
 
-This asks the directory and package names and the info required by PyPI:
+Asks the directory, package name and other information required for PyPI:
 
     cookiecutter .
 
-The defaults are in `cookiecutter.json`.
+## Example
+
+[examplelib](https://github.com/Omenia/libcutter/tree/master/examplelib)
+is generated using the defaults in `cookiecutter.json`.
