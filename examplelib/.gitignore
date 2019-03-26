@@ -5,6 +5,7 @@ __pycache__
 .venvs/
 dist/
 build/
+pip-wheel-metadata/
 
 log.html
 output.xml
