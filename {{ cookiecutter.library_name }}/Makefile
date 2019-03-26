@@ -131,6 +131,7 @@ publish_pypi: ## Publish dists to PyPI
 .PHONY: clean
 clean: ## Remove .venvs, builds, dists, and caches
 	rm -rf dist build */*.egg-info */__pycache__ */**/__pycache__
+	rm -rf pip-wheel-metadata
 	rm -rf .venvs
 	rm -rf .pytest_cache .mypy_cache
 	rm -rf results
